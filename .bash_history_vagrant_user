@@ -1,0 +1,58 @@
+source ~/.bashrc
+sour
+sd
+cleaasdasdd
+dsa
+dsdas
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+./UTN-FRA_SO_Examenes/202406/script_Precondicion.sh
+source ~/.bashrc
+sudo apt update
+sudo apt install wget gpg
+UBUNTU_CODENAME=jammy
+wget -O- "https://keyserver.ubuntu.com/pks/lookup?fingerprint=on&op=get&search=0x6125E2A8C77F2818FB7BD15B93C4A3FD7BB9C367" | sudo gpg --dearmour -o /usr/share/keyrings/ansible-archive-keyring.gpg
+echo "deb [signed-by=/usr/share/keyrings/ansible-archive-keyring.gpg] http://ppa.launchpad.net/ansible/ansible/ubuntu $UBUNTU_CODENAME main" | sudo tee /etc/apt/sources.list.d/ansible.list
+sudo apt update && sudo apt install ansible
+ansible --version
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+# Add the repository to Apt sources:
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+# Add the repository to Apt sources:
+echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo docker run hello-world
+sudo useradd -m -s /bin/bash laureana
+vagrant ssh
+sudo passwd laureana
+cd/etc
+sudo su
+su laureana
+sudo su
+su laureana
+exit
+su laureana
+anhe
+ccd
+suuraa
+su 
+su laureana
+clear
+history
+ssh-keygen
+cat .ssh/id_rsa.pub 
+git clone git@github.com:laureanaanahi/UTNFRA_SO_2do_TP_sanchez.git
+history -a
